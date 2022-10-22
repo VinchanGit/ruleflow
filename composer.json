@@ -1,0 +1,24 @@
+{
+    "name": "engroup/ruleflow",
+    "autoload": {
+        "psr-4": {
+            "RuleFlow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Engroup",
+            "email": "engroup@foxmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.10",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit -c phpunit.xml --colors=always",
+        "cs-fix": "./vendor/bin/php-cs-fixer fix"
+    }
+}
